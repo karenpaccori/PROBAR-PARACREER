@@ -1,0 +1,211 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del Menú de Navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: RED;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: BLACK;
+}
+
+/* Estilos de las Secciones */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#inicio {
+    background-: BLACK;
+}
+
+#nuestra-historia {
+    background-color: #f9f9f9;
+}
+
+#nuestra-carta {
+    background-color: #ffebcc;
+}
+
+#nos-ubicamos {
+    background-color: #f0f8ff;
+}
+
+#ambientes {
+    background-color: #e6ffe6;
+}
+
+#galeria {
+    background-color: #fff2e6;
+}
+
+#contactos {
+    background-color: #f2e6ff;
+}
+
+#reservaciones {
+    background-color: #ffe6e6;
+}
+#reservaciones {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e20303;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(243, 239, 239, 0.856);
+}
+
+#reservaciones h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f1ebeb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: #0f0d0d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #98db1c;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0d0d0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+#blog {
+    background-color: #e6f2ff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: BLACK;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    width: 80px; /* Cambia el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+/* Fondo del logo directamente */
+.logo {
+    background-color: RED; /* Cambia al color de fondo deseado */
+    padding: 5px;
+    border-radius: 8px;
+    width: 80px;
+    height: auto;
+}
+.imagen-bienvenida {
+    width: 100%; /* La imagen ocupa todo el ancho de la pantalla */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block;
+    margin-top: 20px; /* Espacio entre el encabezado y la imagen */
+}
+#inicio {
+    padding: 20px;
+    background-color: RED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#inicio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: BLACK;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.elemento-galeria {
+    text-align: center;
+    max-width: 400px;
+}
+
+.elemento-galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.elemento-galeria p {
+    margin-top: 29px;
+    color: white;
+    font-size: 1rem;
+}
